@@ -36,7 +36,8 @@ EOF
    		echo "Invalid input. \nProcess aborted."
    	fi
 else
-	echo "File already exists. \nProcess aborted."
+	echo "File already exists."
+	echo "Process aborted."
 	echo "You can add the CSS yourself to the gtk.css file at the path" 
 	echo ""
 	echo "~/.config/gtk-3.0/gtk.css"
