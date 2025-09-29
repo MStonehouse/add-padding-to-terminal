@@ -12,8 +12,8 @@ if [ ! -f ~/.config/gtk-3.0/gtk.css ]; then
     echo "Adding CSS to gtk-3.0 folder."
     cat > ~/.config/gtk-3.0/gtk.css <<EOF
 VteTerminal, TerminalScreen, vte-terminal {
-    padding: ${padding}px ${padding}px ${padding}px ${padding}px; /* Top, Right, Bottom, Left padding */
-    -VteTerminal-inner-border: ${padding}px ${padding}px ${padding}px ${padding}px; /* Alternative for older versions/specific cases */
+    padding: 14px 14px 14px 14px; /* Top, Right, Bottom, Left padding */
+    -VteTerminal-inner-border: 14px 14px 14px 14px; /* Alternative for older versions/specific cases */
 }
 EOF
 
