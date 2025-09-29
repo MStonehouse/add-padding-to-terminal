@@ -1,5 +1,5 @@
 # add-padding-to-terminal
-Add padding to Linux Mint (and probably Ubuntu) terminal.
+Add padding to Linux Mint (and probably Ubuntu) terminal.  
 To run the code open terminal and run the following command.
 
 ```markdown
